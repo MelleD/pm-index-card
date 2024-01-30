@@ -56,7 +56,7 @@ jobs:
           target_commitish: "main"
           draft: false
           prerelease: false
-          files: public/pm-index-card.js
+          files: dist/pm-index-card.js
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
