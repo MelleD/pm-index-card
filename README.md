@@ -57,7 +57,7 @@ type: custom:pm-index-card
 entity: sensor.pm_2_5
 ```
 
-![Default](https://github.com/melled/pm-index-card/blob/master/docs/images/pm-index-card.png?raw=true)
+![Default](https://github.com/MelleD/pm-index-card/blob/master/docs/images/pm-index-card.png?raw=true)
 
 
 ## Options
@@ -95,8 +95,8 @@ The following languages are supported:
 | Language  | Yaml value | Supported | Translated by                                                                       |
 | --------- | ---------- | --------- | ----------------------------------------------------------------------------------- |
                  |
-| English   | `en`       | v1.0.0    | [@melled](https://github.com/melled)                                                |
-| German    | `de`       | v1.0.0    | [@melled](https://github.com/melled)                                                |                                            |
+| English   | `en`       | v1.0.0    | [@MelleD](https://github.com/MelleD)                                                |
+| German    | `de`       | v1.0.0    | [@MelleD](https://github.com/MelleD)                                                |                                            |
 
 #### How to add a language
 
@@ -116,24 +116,24 @@ If you wish to add a language please follow these steps:
 
 Clone and create a PR to help make the card even better.
 
-[releases-shield]: https://img.shields.io/github/release/melled/pm-index-card.svg?style=flat-square
-[releases-link]: https://github.com/melled/pm-index-card/releases/latest
-[release-date-shield]: https://img.shields.io/github/release-date/melled/pm-index-card?style=flat-square
-[latest-download-shield]: https://img.shields.io/github/downloads/melled/pm-index-card/latest/total?style=flat-square&label=downloads%20latest%20release
-[total-download-shield]: https://img.shields.io/github/downloads/melled/pm-index-card/total?style=flat-square&label=total%20views
-[traffic-link]: https://github.com/melled/pm-index-card/graphs/traffic
+[releases-shield]: https://img.shields.io/github/release/MelleD/pm-index-card.svg?style=flat-square
+[releases-link]: https://github.com/MelleD/pm-index-card/releases/latest
+[release-date-shield]: https://img.shields.io/github/release-date/MelleD/pm-index-card?style=flat-square
+[latest-download-shield]: https://img.shields.io/github/downloads/MelleD/pm-index-card/latest/total?style=flat-square&label=downloads%20latest%20release
+[total-download-shield]: https://img.shields.io/github/downloads/MelleD/pm-index-card/total?style=flat-square&label=total%20views
+[traffic-link]: https://github.com/MelleD/pm-index-card/graphs/traffic
 [hacs-shield]: https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square
 [hacs-link]: https://github.com/custom-components/hacs
 [home-assistant-shield]: https://img.shields.io/badge/Home%20Assistant-visual%20editor/yaml-green?style=flat-square
 [home-assistant-link]: https://www.home-assistant.io/
 [license-shield]: https://img.shields.io/github/license/custom-cards/boilerplate-card.svg?style=flat-square
 [license-link]: LICENSE.md
-[activity-shield]: https://img.shields.io/github/commit-activity/y/melled/pm-index-card.svg?style=flat-square
-[activity-link]: https://github.com/melled/pm-index-card/commits/master
-[bugs-shield]: https://img.shields.io/github/issues/melled/pm-index-card/bug?color=red&style=flat-square&label=bugs
-[bugs-link]: https://github.com/melled/pm-index-card/labels/bug
-[enhancements-shield]: https://img.shields.io/github/issues/melled/pm-index-card/enhancement?color=blue&style=flat-square&label=enhancements
-[enhancement-link]: https://github.com/melled/pm-index-card/labels/enhancement
+[activity-shield]: https://img.shields.io/github/commit-activity/y/MelleD/pm-index-card.svg?style=flat-square
+[activity-link]: https://github.com/MelleD/pm-index-card/commits/master
+[bugs-shield]: https://img.shields.io/github/issues/MelleD/pm-index-card/bug?color=red&style=flat-square&label=bugs
+[bugs-link]: https://github.com/MelleD/pm-index-card/labels/bug
+[enhancements-shield]: https://img.shields.io/github/issues/MelleD/pm-index-card/enhancement?color=blue&style=flat-square&label=enhancements
+[enhancement-link]: https://github.com/MelleD/pm-index-card/labels/enhancement
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg?style=flat-square
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=flat-square
 [forum-link]: https://community.home-assistant.io/t/pm-index-card/543446

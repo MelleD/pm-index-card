@@ -11,7 +11,7 @@
     "custom-cards"
   ],
   "module": "pm-index-card.js",
-  "repository": "git@github.com:melled/pm-index-card.git",
+  "repository": "git@github.com:MelleD/pm-index-card.git",
   "author": "MelleD",
   "license": "MIT",
   "dependencies": {
