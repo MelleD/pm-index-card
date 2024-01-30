@@ -1,0 +1,17 @@
+{
+    "common": {
+      "version": "Version",
+      "invalid_configuration": "Ungültige Konfiguration",
+      "show_warning": "Warnung anzeigen",
+      "show_error": "Fehler anzeigen",
+      "pm_index": "PM-Index",
+      "pm_risk": "Risikostufe"
+    },
+    "pm_levels": {
+      "low": "Niedrig",
+      "moderate": "Mäßig",
+      "high": "Hoch",
+      "very_high": "Sehr hoch",
+      "extreme": "Extrem"
+    }
+  }
