@@ -215,7 +215,7 @@ export class PMIndexCard extends LitElement {
             <div>
             <p>
               <span style="font-weight: bold;">${localize('common.pm_recommendation', '', '', this.config.language)}</span><br/>
-              ${localize(pmRecomenndation, '', '', this.config.language)}
+              <SMALL>${localize(pmRecomenndation, '', '', this.config.language)}</SMALL>
             </p>
           </div>
           </div>
