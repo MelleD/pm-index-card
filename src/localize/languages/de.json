@@ -1,27 +1,25 @@
 {
-    "common": {
-      "version": "Version",
-      "invalid_configuration": "Ungültige Konfiguration",
-      "show_warning": "Warnung anzeigen",
-      "show_error": "Fehler anzeigen",
-      "pm_index": "PM-Index",
-      "pm_risk_level": "Risikostufe",
-      "pm_risk": "Risiko"
-    },
-    "pm_levels": {
-      "low": "Niedrig",
-      "moderate": "Mäßig",
-      "high": "Hoch",
-      "very_high": "Sehr hoch",
-      "extreme": "Extrem"
-    },
-    "pm_risk": {
-      "low": "Kein Risiko",
-      "moderate": "Mäßig für Atemproblem",
-      "high": "Hoch für Atemprobleme",
-      "very_high": "Hoch für Lunge und Kopf",
-      "extreme": "Extrem für Lunge und Kopf"
-    }
+  "common": {
+    "version": "Version",
+    "invalid_configuration": "Ungültige Konfiguration",
+    "show_warning": "Warnung anzeigen",
+    "show_error": "Fehler anzeigen",
+    "pm_index": "PM-Index",
+    "pm_risk_level": "Risikostufe",
+    "pm_risk": "Risiko"
+  },
+  "pm_levels": {
+    "low": "Niedrig",
+    "moderate": "Mäßig",
+    "high": "Hoch",
+    "very_high": "Sehr hoch",
+    "extreme": "Extrem"
+  },
+  "pm_risk": {
+    "low": "Kein Risiko",
+    "moderate": "Mäßig für Atemproblem",
+    "high": "Hoch für Atemprobleme",
+    "very_high": "Hoch für Lunge und Kopf",
+    "extreme": "Extrem für Lunge und Kopf"
   }
-
-
+}
