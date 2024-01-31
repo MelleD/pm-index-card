@@ -24,13 +24,13 @@
     "@material/mwc-select": "^0.27.0",
     "@material/mwc-switch": "^0.27.0",
     "@material/mwc-textfield": "^0.27.0",
-    "custom-card-helpers": "^1.7.2",
+    "custom-card-helpers": "^1.8.0",
     "home-assistant-js-websocket": "^5.11.1",
     "lit": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
-    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-class-properties": "^7.23.3",
     "@babel/plugin-proposal-decorators": "^7.14.5",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
