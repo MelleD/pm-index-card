@@ -15,11 +15,11 @@
     "very_high": "Very High",
     "extreme": "Extreme"
   },
-  "pm_recommendation_levels": {
+  "pm_risk": {
     "low": "No risk",
-    "moderate": "Moderate for breathing problems",
+    "moderate": "Moderate breathing problems",
     "high": "High for breathing problems",
-    "very_high": "High for the lungs and head",
-    "extreme": "Extreme for the lungs and head"
+    "very_high": "High for lungs and head",
+    "extreme": "Extreme for lungs and head"
   }
 }

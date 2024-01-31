@@ -108,7 +108,7 @@ export class PMIndexCard extends LitElement {
 
       if (stateValue >= 12 && stateValue < 35) {
         pmRiskStr = 'pm_levels.moderate'
-        pmRisk = 'pm_recommendation_levels.moderate'
+        pmRisk = 'pm_risk.moderate'
         colorTriangleValue = 3;
 
         if (stateValue >= 21) {
@@ -123,7 +123,7 @@ export class PMIndexCard extends LitElement {
 
       if (stateValue >= 35 && stateValue < 55) {
         pmRiskStr = 'pm_levels.high'
-        pmRisk = 'pm_recommendation_levels.high'
+        pmRisk = 'pm_risk.high'
         colorTriangleValue = 6;
 
         if (stateValue >= 45) {
@@ -134,7 +134,7 @@ export class PMIndexCard extends LitElement {
 
       if (stateValue >= 55 && stateValue < 150) {
         pmRiskStr = 'pm_levels.very_high'
-        pmRisk = 'pm_recommendation_levels.very_high'
+        pmRisk = 'pm_risk.very_high'
 
         colorTriangleValue = 8;
 
@@ -149,7 +149,7 @@ export class PMIndexCard extends LitElement {
 
       if (stateValue >= 150) {
         pmRiskStr = 'pm_levels.extreme'
-        pmRisk = 'pm_recommendation_levels.extreme'
+        pmRisk = 'pm_risk.extreme'
         colorTriangleValue = 11;
 
         if (stateValue >= 250) {
@@ -215,6 +215,7 @@ export class PMIndexCard extends LitElement {
               <span style="font-weight: bold;">${localize('common.pm_risk', '', '', this.config.language)}</span><br/>
               <SMALL>${localize(pmRisk, '', '', this.config.language)}</SMALL>
             </p>
+          </div>
           </div>
         </div>
       </ha-card>
