@@ -14,6 +14,7 @@ export interface PMIndexCardConfig extends LovelaceCardConfig {
   show_warning?: boolean;
   show_error?: boolean;
   pm_10?: boolean;
+  show_recommendation?: boolean;
   test_gui?: boolean;
   entity?: string;
   language?: string;

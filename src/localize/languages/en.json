@@ -5,7 +5,8 @@
     "show_warning": "Show Warning",
     "show_error": "Show Error",
     "pm_index": "PM Index",
-    "pm_risk": "PM Risk"
+    "pm_risk": "PM Risk",
+    "pm_recommendation": "Recommendation"
   },
   "pm_levels": {
     "low": "Low",
@@ -13,5 +14,12 @@
     "high": "High",
     "very_high": "Very High",
     "extreme": "Extreme"
+  },
+  "pm_recommendation_levels": {
+    "low": "Air quality poses no risk",
+    "moderate": "If you have known respiratory problems, avoid outdoor activities",
+    "high": "Es besteht das Risiko für Reizungen und Atemprobleme",
+    "very_high": "There is a risk of irritation and breathing problems",
+    "extreme": "Staying outdoors should be avoided"
   }
 }

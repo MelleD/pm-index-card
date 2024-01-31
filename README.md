@@ -12,7 +12,6 @@ for allowing me to copy and adapt the card.
 
 ![Project Maintenance][maintenance-shield] [![GitHub Activity][activity-shield]][activity-link] [![Open bugs][bugs-shield]][bugs-link] [![Open enhancements][enhancements-shield]][enhancement-link]
 
-[![Community Forum][forum-shield]][forum-link]
 
 ## Installation
 
@@ -68,7 +67,8 @@ entity: sensor.pm_2_5
 | name              | string  | **Optional** | Card name                                   | `PM Index`          |
 | show_error        | boolean | **Optional** | Show what an error looks like for the card  | `false`             |
 | show_warning      | boolean | **Optional** | Show what a warning looks like for the card | `false`             |
-| pm10              | boolean | **Optional** | Use the pm 10 (true) or 2.5 (false) index scala | `false`             |
+| pm_10             | boolean | **Optional** | Use pm 10 (true) or 2.5 (false) index scala | `false`             |
+| show_recommendation  | boolean | **Optional** | Show health description                     | `true`              |
 | entity            | string  | **Required** | Home Assistant entity ID.                   | `none`              |
 | language          | string  | **Optional** | The 2 character that determines the language| `en`                |
 | tap_action        | object  | **Optional** | Action to take on tap                       | `action: more-info` |
@@ -94,9 +94,8 @@ The following languages are supported:
 
 | Language  | Yaml value | Supported | Translated by                                                                       |
 | --------- | ---------- | --------- | ----------------------------------------------------------------------------------- |
-                 |
 | English   | `en`       | v1.0.0    | [@MelleD](https://github.com/MelleD)                                                |
-| German    | `de`       | v1.0.0    | [@MelleD](https://github.com/MelleD)                                                |                                            |
+| German    | `de`       | v1.0.0    | [@MelleD](https://github.com/MelleD)                                                |
 
 #### How to add a language
 

@@ -66,6 +66,10 @@ export class PMIndexCardEditor extends ScopedRegistryHost(LitElement) implements
     return this._config?.pm_10 || false;
   }
 
+  get _show_recommendation(): boolean {
+    return this._config?.show_recommendation || true;
+  }
+
   protected render(): TemplateResult | void {
     if (!this.hass || !this._helpers) {
       return html``;

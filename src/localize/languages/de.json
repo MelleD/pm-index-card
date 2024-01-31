@@ -5,7 +5,8 @@
       "show_warning": "Warnung anzeigen",
       "show_error": "Fehler anzeigen",
       "pm_index": "PM-Index",
-      "pm_risk": "Risikostufe"
+      "pm_risk": "Risikostufe",
+      "pm_recommendation": "Empfehlung"
     },
     "pm_levels": {
       "low": "Niedrig",
@@ -13,5 +14,14 @@
       "high": "Hoch",
       "very_high": "Sehr hoch",
       "extreme": "Extrem"
+    },
+    "pm_recommendation_levels": {
+      "low": "Luftqualität birgt kein Risiko",
+      "moderate": "Bei bekannten Atemwegsbeschwerden Aktivitäten im Freien vermeiden",
+      "high": "Es besteht das Risiko für Reizungen und Atemprobleme",
+      "very_high": "Hohes Risiko für Kopf und Lunge",
+      "extreme": "Aufenthalt im Freien sollte vermieden werden"
     }
   }
+
+
