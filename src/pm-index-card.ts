@@ -201,10 +201,8 @@ export class PMIndexCard extends LitElement {
           </div>
           <div>
             <div>
-              <p>
                 <span style="font-weight: bold;">${localize('common.pm_index', '', '', this.config.language)}</span><br/>
                 ${stateValue} µg/m³
-              </p>
             </div>
             <div>
               <p>
@@ -217,7 +215,6 @@ export class PMIndexCard extends LitElement {
               <span style="font-weight: bold;">${localize('common.pm_risk', '', '', this.config.language)}</span><br/>
               <SMALL>${localize(pmRisk, '', '', this.config.language)}</SMALL>
             </p>
-          </div>
           </div>
         </div>
       </ha-card>
