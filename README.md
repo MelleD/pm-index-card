@@ -56,9 +56,9 @@ type: custom:pm-index-card
 entity: sensor.pm_2_5
 ```
 
-![Card1](docs/images/index-card.png)
+![Card1](https://github.com/MelleD/pm-index-card/blob/main/docs/images/index-card.png)
 
-![Card2](docs/images/index-card1.png)
+![Card2](https://github.com/MelleD/pm-index-card/blob/main/docs/images/index-card1.png)
 
 ## Options
 
