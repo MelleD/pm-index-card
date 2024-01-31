@@ -403,20 +403,20 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lit-labs/scoped-registry-mixin@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@lit-labs/scoped-registry-mixin/-/scoped-registry-mixin-1.0.0.tgz"
-  integrity sha512-hSk4fnkpbLmLsFLgIetJxmZVAjnn0u/82D6NUzi9cbHddUlTbjeLcQed0ABaT7n2C3w6RDacel3XM2Ib3nTegQ==
+"@lit-labs/scoped-registry-mixin@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@lit-labs/scoped-registry-mixin/-/scoped-registry-mixin-1.0.3.tgz#fb8d711c4c351527fc80d751b2aa2b48faa78cc1"
+  integrity sha512-+DywdIJIIR30K0UGdWkn3iPlVvuSfmvo4qUlPTz1hEizksPD4Vl8TrwuXwi4HTIQ2XugYK3WXaWfWqqLEzbrxg==
   dependencies:
-    "@lit/reactive-element" "^1.0.0"
-    lit "^2.0.0"
+    "@lit/reactive-element" "^1.0.0 || ^2.0.0"
+    lit "^2.0.0 || ^3.0.0"
 
 "@lit-labs/ssr-dom-shim@^1.1.0":
   version "1.1.2"
-  resolved "https://registry.npmjs.org/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.1.2.tgz"
+  resolved "https://registry.yarnpkg.com/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.1.2.tgz#d693d972974a354034454ec1317eb6afd0b00312"
   integrity sha512-jnOD+/+dSrfTWYfSXBXlo5l5f0q1UuJo3tkbMDCYA2lKUYq79jaxqtGEvnRoh049nt1vdo1+45RinipU6FGY2g==
 
-"@lit/reactive-element@1.2.1", "@lit/reactive-element@^1.0.0", "@lit/reactive-element@^1.3.0", "@lit/reactive-element@^1.6.0":
+"@lit/reactive-element@1.2.1", "@lit/reactive-element@^1.0.0 || ^2.0.0", "@lit/reactive-element@^1.3.0", "@lit/reactive-element@^1.6.0":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@lit/reactive-element/-/reactive-element-1.2.1.tgz#8620d7f0baf63e12821fa93c34d21e23477736f7"
   integrity sha512-03FYfMguIWo9E1y1qcTpXzoO8Ukpn0j5o4GjNFq/iHqJEPY6pYopsU44e7NSFIgCTorr8wdUU5PfVy8VeD6Rwg==
@@ -1010,7 +1010,7 @@
 
 "@types/trusted-types@^2.0.2":
   version "2.0.7"
-  resolved "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
   integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
 
 "@typescript-eslint/eslint-plugin@^6.20.0":
@@ -2342,7 +2342,7 @@ lit-html@2.8.0, lit-html@^2.8.0:
   dependencies:
     "@types/trusted-types" "^2.0.2"
 
-lit@^2.0.0, lit@^2.1.1, lit@^2.1.2:
+lit@^2.0.0, "lit@^2.0.0 || ^3.0.0", lit@^2.1.1, lit@^2.1.2:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/lit/-/lit-2.8.0.tgz#4d838ae03059bf9cafa06e5c61d8acc0081e974e"
   integrity sha512-4Sc3OFX9QHOJaHbmTMk28SYgVxLN3ePDjg7hofEft2zWlehFL3LiAuapWc4U/kYwMYJSh2hTCPZ6/LIC7ii0MA==
@@ -2430,7 +2430,7 @@ minimatch@^5.0.1:
 
 minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.8"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 ms@2.1.2:
