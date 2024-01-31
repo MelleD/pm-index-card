@@ -17,8 +17,8 @@
     },
     "pm_recommendation_levels": {
       "low": "Luftqualität birgt kein Risiko",
-      "moderate": "Bei bekannten Atemwegsbeschwerden Aktivitäten im Freien vermeiden",
-      "high": "Es besteht das Risiko für Reizungen und Atemprobleme",
+      "moderate": "Bei Atemproblem Aktivitäten im Freien vermeiden",
+      "high": "Risiko für Reizungen und Atemprobleme",
       "very_high": "Hohes Risiko für Kopf und Lunge",
       "extreme": "Aufenthalt im Freien sollte vermieden werden"
     }

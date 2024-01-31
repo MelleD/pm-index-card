@@ -18,8 +18,8 @@
   "pm_recommendation_levels": {
     "low": "Air quality poses no risk",
     "moderate": "If you have known respiratory problems, avoid outdoor activities",
-    "high": "Es besteht das Risiko für Reizungen und Atemprobleme",
-    "very_high": "There is a risk of irritation and breathing problems",
+    "high": "Risk of irritation and breathing problems",
+    "very_high": "High risk to head and lungs",
     "extreme": "Staying outdoors should be avoided"
   }
 }
