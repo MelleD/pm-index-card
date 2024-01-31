@@ -6,7 +6,7 @@ import { fireEvent } from 'custom-card-helpers';
 
 const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.maxTouchPoints > 0;
 
-interface ActionHandler extends HTMLElement {
+interface ActionHtmlElementHandler extends HTMLElement {
   holdTime: number;
   bind(element: Element, options): void;
 }
@@ -20,7 +20,7 @@ declare global {
   }
 }
 
-class ActionHandler extends HTMLElement implements ActionHandler {
+class ActionHandler extends HTMLElement implements ActionHtmlElementHandler {
   public holdTime = 500;
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
