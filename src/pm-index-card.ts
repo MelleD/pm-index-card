@@ -96,7 +96,7 @@ export class PMIndexCard extends LitElement {
 
     let colorTriangleValue = 1;
     let pmRiskStr = 'pm_levels.low'
-    let pmRecomenndation = 'pm_recommendation_levels.low'
+    let pmRisk = 'pm_risk.low'
 
     if (this.config.pm_10) {
        // ADD Scala index for pm 10
@@ -108,7 +108,7 @@ export class PMIndexCard extends LitElement {
 
       if (stateValue >= 12 && stateValue < 35) {
         pmRiskStr = 'pm_levels.moderate'
-        pmRecomenndation = 'pm_recommendation_levels.moderate'
+        pmRisk = 'pm_recommendation_levels.moderate'
         colorTriangleValue = 3;
 
         if (stateValue >= 21) {
@@ -123,7 +123,7 @@ export class PMIndexCard extends LitElement {
 
       if (stateValue >= 35 && stateValue < 55) {
         pmRiskStr = 'pm_levels.high'
-        pmRecomenndation = 'pm_recommendation_levels.high'
+        pmRisk = 'pm_recommendation_levels.high'
         colorTriangleValue = 6;
 
         if (stateValue >= 45) {
@@ -134,7 +134,7 @@ export class PMIndexCard extends LitElement {
 
       if (stateValue >= 55 && stateValue < 150) {
         pmRiskStr = 'pm_levels.very_high'
-       pmRecomenndation = 'pm_recommendation_levels.very_high'
+        pmRisk = 'pm_recommendation_levels.very_high'
 
         colorTriangleValue = 8;
 
@@ -149,7 +149,7 @@ export class PMIndexCard extends LitElement {
 
       if (stateValue >= 150) {
         pmRiskStr = 'pm_levels.extreme'
-        pmRecomenndation = 'pm_recommendation_levels.extreme'
+        pmRisk = 'pm_recommendation_levels.extreme'
         colorTriangleValue = 11;
 
         if (stateValue >= 250) {
@@ -208,14 +208,14 @@ export class PMIndexCard extends LitElement {
             </div>
             <div>
               <p>
-                <span style="font-weight: bold;">${localize('common.pm_risk', '', '', this.config.language)}</span><br/>
+                <span style="font-weight: bold;">${localize('common.pm_risk_level', '', '', this.config.language)}</span><br/>
                 ${localize(pmRiskStr, '', '', this.config.language)}
               </p>
             </div>
             <div>
             <p>
-              <span style="font-weight: bold;">${localize('common.pm_recommendation', '', '', this.config.language)}</span><br/>
-              <SMALL>${localize(pmRecomenndation, '', '', this.config.language)}</SMALL>
+              <span style="font-weight: bold;">${localize('common.pm_risk', '', '', this.config.language)}</span><br/>
+              <SMALL>${localize(pmRisk, '', '', this.config.language)}</SMALL>
             </p>
           </div>
           </div>
