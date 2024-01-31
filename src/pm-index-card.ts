@@ -92,7 +92,7 @@ export class PMIndexCard extends LitElement {
     const entityId = this.config.entity;
     const entityState = entityId ? this.hass.states[entityId] : undefined;
     const stateValue:number = entityState ? parseFloat(entityState.state) : 0;
-    const showRecommendation = this.config.show_recommendation;
+    // const showRecommendation = this.config.show_recommendation;
 
     let colorTriangleValue = 1;
     let pmRiskStr = 'pm_levels.low'

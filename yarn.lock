@@ -262,6 +262,18 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
+"@eslint-community/eslint-utils@^4.4.0":
+  version "4.4.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz"
+  integrity sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==
+  dependencies:
+    eslint-visitor-keys "^3.3.0"
+
+"@eslint-community/regexpp@^4.5.1":
+  version "4.10.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@eslint-community/regexpp/-/regexpp-4.10.0.tgz"
+  integrity sha512-Cu96Sd2By9mCNTx2iyKOmq10v22jUVQv0lQnlGNy16oE9589yE+QADPbrMGCkA51cKZSg3Pu/aTJVTGfL/qjUA==
+
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.4.3.tgz"
@@ -363,464 +375,472 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.0.0"
 
-"@lit/reactive-element@1.0.0-rc.4":
-  version "1.0.0-rc.4"
-  resolved "https://registry.npmjs.org/@lit/reactive-element/-/reactive-element-1.0.0-rc.4.tgz"
-  integrity sha512-dJMha+4NFYdpnUJzRrWTFV5Hdp9QHWFuPnaoqonrKl4lGJVnYez9mu8ev9F/5KM47tjAjh22DuRHrdFDHfOijA==
-
-"@material/animation@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/animation/-/animation-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-OjxWJYSRNs4vnPe8NclaNn+TsNc8TR/wHusGtezF5F+wl+5mh+K69BMXAmURtq3idoRg4XaOSC/Ohk1ovD1fMQ==
+"@material/animation@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/animation/-/animation-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-GBuR4VmcTQW1D0lPXEosf5Giho72LLbyGIydWGtaEUtLJoive/D9kFkwTN4Fsyt9Kkl7hbhs35vrNe6QkAH4/Q==
   dependencies:
     tslib "^2.1.0"
 
-"@material/base@=14.0.0-canary.261f2db59.0", "@material/base@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/base/-/base-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-vy5SQt+jcwwdRFfBvtpVdpULUBujecVUKOXcopaQoi2XIzI5EBHuR4gPN0cd1yfmVEucD6p2fvVv2FJ3Ngr61w==
+"@material/base@=14.0.0-canary.53b3cad2f.0", "@material/base@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/base/-/base-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-UJKbXwZtkrA3sfQDmj8Zbw1Q3Tqtl6KdfVFws95Yf7TCUgTFzbZI/FSx1w7dVugQPOEnIBuZnzqZam/MtHkx4w==
   dependencies:
     tslib "^2.1.0"
 
-"@material/density@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/density/-/density-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-zOR5wISqPVr8KS/ERNC1jdRV9O832lzclyS9Ea20rDrWfuOiYsQ9bbIk12xWlxpgsn7r9fxQJyd1O2SURoHdRA==
+"@material/density@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/density/-/density-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-Eh/vZ3vVyqtpylg5Ci33qlgtToS4H1/ppd450Ib3tcdISIoodgijYY0w4XsRvrnZgbI/h/1STFdLxdzS0UNuFw==
   dependencies:
     tslib "^2.1.0"
 
-"@material/dom@=14.0.0-canary.261f2db59.0", "@material/dom@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/dom/-/dom-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-iUpZG6Bb2l/PfNV2Fb/pXfG1p4Bz4PC9A7ATPlKfcU5HioObcnYVc/+Hrtaw8eu28BNIc+VVROtbfpqG/YgKSQ==
+"@material/dom@=14.0.0-canary.53b3cad2f.0", "@material/dom@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/dom/-/dom-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-aR+rfncF6oi2ivdOlKSJI4UXwNzWV5rXM88MLDoSJF1D7lXxhAKhge+tMUBodWGV/q0+FnXLuVAa0WYTrKjo+A==
   dependencies:
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/elevation@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/elevation/-/elevation-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-AqN/tsTGGyBzZ7CtoSMBY9bDYvCuUt98EUfiGjZGXcf4HgoHV3Cn/JSLrhru5Cq8Nx6HF6AmHh3dQCfNCQduew==
+"@material/elevation@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://registry.npmjs.org/@material/elevation/-/elevation-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-3h+EkR588RMZ5TSNQ4UeXD1FOBnL3ABQix0DQIGwtNJCqSMoPndT/oJEFvwQbTkZNDbFIKN9p1Q7/KuFPVY8Pw==
   dependencies:
-    "@material/animation" "14.0.0-canary.261f2db59.0"
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
+    "@material/animation" "14.0.0-canary.53b3cad2f.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/feature-targeting@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-CrVoGNu0ym52OPEKy3kgeNL2oSWOCBYbYxSH3GhERxCq5FwGBN+XmK/ZDLFVQlHYy3v8x4TqVEwXviCeumNTxQ==
+"@material/feature-targeting@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/feature-targeting/-/feature-targeting-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-fn7Af3PRyARtNeYqtjxXmE3Y/dCpnpQVWWys57MqiGR/nvc6qpgOfJ6rOdcu/MrOysOE/oebTUDmDnTmwpe9Hw==
   dependencies:
     tslib "^2.1.0"
 
-"@material/floating-label@=14.0.0-canary.261f2db59.0", "@material/floating-label@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/floating-label/-/floating-label-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-Cp0/LngkW6/uZWbEDTe3Ox143V4kYtxl9twiM3XLKd6a67JHCzneQWFzC0qSg90b3r5O+1zOkT3ZMF2Pbu2Vwg==
+"@material/floating-label@=14.0.0-canary.53b3cad2f.0", "@material/floating-label@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/floating-label/-/floating-label-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-gHZUTTVKnP+Zjz4l9IT/G89NPmypn5FlTGLWKKqXbuQphr37rsKFR3Y80SJxULRyMDnAdKSxuZwiXLFKQz9KlA==
   dependencies:
-    "@material/animation" "14.0.0-canary.261f2db59.0"
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/dom" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
-    "@material/typography" "14.0.0-canary.261f2db59.0"
+    "@material/animation" "14.0.0-canary.53b3cad2f.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
+    "@material/typography" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/form-field@=14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/form-field/-/form-field-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-NCc/o60gwuF28PVMgFkHrKcHxIaCMZK9JRVfoaD0sF2BINYrjaCkFZ+x6AhNjAWLUQMhJMfc+1WXAUE2T85Mug==
+"@material/focus-ring@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://registry.npmjs.org/@material/focus-ring/-/focus-ring-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-exPX5VrjQimipBwgcFDGRiEE783sOBgpkFui59A6i6iGvS2UrLHlYY2E65fyyyQnD1f/rv4Po1OOnCesE1kulg==
   dependencies:
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/ripple" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
-    "@material/typography" "14.0.0-canary.261f2db59.0"
+    "@material/dom" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+
+"@material/form-field@=14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/form-field/-/form-field-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-h9jFm9f5WeMHJWGpQsZ9sPrERLGcDQdW8uvbHAHZ/zN35Mqj43s8+alXROiibx+m1oHLvf2Z01pPWtFSXLYzxA==
+  dependencies:
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/ripple" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
+    "@material/typography" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/line-ripple@=14.0.0-canary.261f2db59.0", "@material/line-ripple@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/line-ripple/-/line-ripple-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-LlyiyxpHNlFt0PZ8Q2tvOPbjNcgm3L7tUebXsM7iGyoKXfj0HwyDI31S0KgtU3Vs5DIK4U4mnRWtoAxtBW6Jfg==
+"@material/line-ripple@=14.0.0-canary.53b3cad2f.0", "@material/line-ripple@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/line-ripple/-/line-ripple-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-k8f8uuDwnSqZZ98CzbYtQVtxlp1ryUup9nd2uobo3kiqQNlQfXdGkVjuCXcla0OPiKFizNn7dS6Kl/j6L09XUA==
   dependencies:
-    "@material/animation" "14.0.0-canary.261f2db59.0"
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
+    "@material/animation" "14.0.0-canary.53b3cad2f.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/list@=14.0.0-canary.261f2db59.0", "@material/list@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/list/-/list-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-bjHXXk2ZeWxAFs4cJxy5J5A5ClUd3FGjRv/LwCYpsh7Dm7e8kSe8Lw2MWb6FXyF3mDJM6xqN3xXQWOh6UEu5wA==
+"@material/list@=14.0.0-canary.53b3cad2f.0", "@material/list@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/list/-/list-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-mkMpltSKAYLBtFnTTCk/mQIDzwxF/VLh1gh59ehOtmRXt7FvTz83RoAa4tqe53hpVrbX4HoLDBu+vILhq/wkjw==
   dependencies:
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/density" "14.0.0-canary.261f2db59.0"
-    "@material/dom" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/ripple" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/shape" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
-    "@material/typography" "14.0.0-canary.261f2db59.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/density" "14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/ripple" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/shape" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
+    "@material/typography" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/menu-surface@=14.0.0-canary.261f2db59.0", "@material/menu-surface@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/menu-surface/-/menu-surface-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-zv/fv/W3zdSb+c/p6GNcOqA3+wAc/r8MOtV53WJPLlvZZSpGoTwHUp+GPiNeovfbsTSxN95XOXuVQBEfKEb8vA==
+"@material/menu-surface@=14.0.0-canary.53b3cad2f.0", "@material/menu-surface@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://registry.npmjs.org/@material/menu-surface/-/menu-surface-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-IQWb/n15FpLnn+kHp0EqzLE+UoWSPumq3eze2QifiowvGb37bNFR9oSe7CaOzPMrHdkrZ5SBWnDU41wPZN5kOg==
   dependencies:
-    "@material/animation" "14.0.0-canary.261f2db59.0"
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/elevation" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/shape" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
+    "@material/animation" "14.0.0-canary.53b3cad2f.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/elevation" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/shape" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/menu@=14.0.0-canary.261f2db59.0", "@material/menu@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/menu/-/menu-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-x59UHoTLvEsPKjFdffrKTgEyc0T4W3m58RsizAmapXr59Uthq8+PTFOkAv9R1PV/ZCzxay7Vx+QcekC4qOr40A==
+"@material/menu@=14.0.0-canary.53b3cad2f.0", "@material/menu@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://registry.npmjs.org/@material/menu/-/menu-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-MmYKVrMIqOtP3TN4vdrrnQrS8P81+tMaA6bKiT9V79R1U6+mKsBYTzaLtLbzyem5vF8O0q7bSwyPwhWPtJr75Q==
   dependencies:
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/dom" "14.0.0-canary.261f2db59.0"
-    "@material/elevation" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/list" "14.0.0-canary.261f2db59.0"
-    "@material/menu-surface" "14.0.0-canary.261f2db59.0"
-    "@material/ripple" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "14.0.0-canary.53b3cad2f.0"
+    "@material/elevation" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/list" "14.0.0-canary.53b3cad2f.0"
+    "@material/menu-surface" "14.0.0-canary.53b3cad2f.0"
+    "@material/ripple" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/mwc-base@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-base/-/mwc-base-0.25.3.tgz"
-  integrity sha512-4wvxZ9dhPr0O4jjOHPmFyn77pafe+h1gHPlT9sbQ+ly8NY/fSn/TXn7/PbxgL8g4ZHxMvD3o7PJopg+6cbHp8Q==
+"@material/mwc-base@^0.27.0":
+  version "0.27.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/mwc-base/-/mwc-base-0.27.0.tgz"
+  integrity sha512-oCWWtjbyQ52AaUbzINLGBKScIPyqhps2Y7c8t6Gu6fcFeDxhKXMV1Cqvtj/OMhtAt53XjHfD2XruWwYv3cYYUA==
   dependencies:
-    "@lit/reactive-element" "1.0.0-rc.4"
-    "@material/base" "=14.0.0-canary.261f2db59.0"
-    "@material/dom" "=14.0.0-canary.261f2db59.0"
+    "@material/base" "=14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-checkbox@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-checkbox/-/mwc-checkbox-0.25.3.tgz"
-  integrity sha512-PSh9IAgQK4XiDzBwgclheejkA4cbZ3K9V1JTTl/YVRDD/OLLM+Bh8tbnAg/1kGVlPWOUfDrYCcZ0gg472ca7gw==
+"@material/mwc-checkbox@^0.27.0":
+  version "0.27.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/mwc-checkbox/-/mwc-checkbox-0.27.0.tgz"
+  integrity sha512-EY0iYZLwo8qaqMwR5da4fdn0xI0BZNAvKTcwoubYWpDDHlGxDcqwvjp/40ChGo3Q/zv8/4/A0Qp7cwapI82EkA==
   dependencies:
-    "@material/mwc-base" "^0.25.3"
-    "@material/mwc-ripple" "^0.25.3"
+    "@material/mwc-base" "^0.27.0"
+    "@material/mwc-ripple" "^0.27.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-floating-label@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-floating-label/-/mwc-floating-label-0.25.3.tgz"
-  integrity sha512-3uFMi8Y680P0nzP5zih4YuOZJLl/C6Ux9G810Unwo44zblG/ckgJlFiM+T+oR+OH5KM8LbfNlV0ypo7FT5zYJA==
+"@material/mwc-floating-label@^0.27.0":
+  version "0.27.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/mwc-floating-label/-/mwc-floating-label-0.27.0.tgz"
+  integrity sha512-uLleloTxQ6dDShcZzqgqfC8otQY8DtGMO9HFQbAEncoFAWpAehcEonsuT/IUhMORN+c5un0P5WXwcZsInJb7og==
   dependencies:
-    "@material/floating-label" "=14.0.0-canary.261f2db59.0"
+    "@material/floating-label" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-formfield@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-formfield/-/mwc-formfield-0.25.3.tgz"
-  integrity sha512-JP/ZgsWok0ZVwUQfYgaov0Ocn1zDiiw7Po6q8k/n5tOS67S41XUB/ctiUg1gh00LAM0v3eZAexa9ZmKarviVJA==
+"@material/mwc-formfield@^0.27.0":
+  version "0.27.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/mwc-formfield/-/mwc-formfield-0.27.0.tgz"
+  integrity sha512-XGZtC1MTyGQ8b2osnaygGzS3qe2QvlWfXZepcFs9i6MW+b6VimQQ4c/KsKIF7dHmeY6N0o4k9pAZ086EGesXOQ==
   dependencies:
-    "@material/form-field" "=14.0.0-canary.261f2db59.0"
-    "@material/mwc-base" "^0.25.3"
+    "@material/form-field" "=14.0.0-canary.53b3cad2f.0"
+    "@material/mwc-base" "^0.27.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-icon@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-icon/-/mwc-icon-0.25.3.tgz"
-  integrity sha512-36076AWZIRSr8qYOLjuDDkxej/HA0XAosrj7TS1ZeLlUBnLUtbDtvc1S7KSa0hqez7ouzOqGaWK24yoNnTa2OA==
+"@material/mwc-icon@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.npmjs.org/@material/mwc-icon/-/mwc-icon-0.27.0.tgz"
+  integrity sha512-Sul44I37M9Ewynn0A9DjkEBrmll2VtNbth6Pxj7I1A/EAwEfaCrPvryyGqfIu1T2hTsRcaojzQx6QjF+B5QW9A==
   dependencies:
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-line-ripple@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-line-ripple/-/mwc-line-ripple-0.25.3.tgz"
-  integrity sha512-ANJzSyumb+shBVTIhqF1+YByPU/EpFXxI9CS26qThFqlUDpYXg5xcoZpkMSmZv3Wv/loF1rs2mJfFWOcC6nFnw==
+"@material/mwc-line-ripple@^0.27.0":
+  version "0.27.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/mwc-line-ripple/-/mwc-line-ripple-0.27.0.tgz"
+  integrity sha512-n9Xpt5g3RJEl9rvk14OP6dUNJUtsJA46beTQiep7ppO7IPVFLC1v/5sPpUzfNPUBsclSPxdBuNlCxsgcIYueUw==
   dependencies:
-    "@material/line-ripple" "=14.0.0-canary.261f2db59.0"
+    "@material/line-ripple" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-list@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-list/-/mwc-list-0.25.3.tgz"
-  integrity sha512-2T297qVaQsKv+QDNP2ag9g04RLKO1tm2F6BwwqvdbXTsY+LKYOJe2/aSe0kX2tQLayX4ydy2RnTevo9Ld+c+4g==
+"@material/mwc-list@^0.27.0":
+  version "0.27.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/mwc-list/-/mwc-list-0.27.0.tgz"
+  integrity sha512-oAhNQsBuAOgF3ENOIY8PeWjXsl35HoYaUkl0ixBQk8jJP2HIEf+MdbS5688y/UXxFbSjr0m//LfwR5gauEashg==
   dependencies:
-    "@material/base" "=14.0.0-canary.261f2db59.0"
-    "@material/dom" "=14.0.0-canary.261f2db59.0"
-    "@material/list" "=14.0.0-canary.261f2db59.0"
-    "@material/mwc-base" "^0.25.3"
-    "@material/mwc-checkbox" "^0.25.3"
-    "@material/mwc-radio" "^0.25.3"
-    "@material/mwc-ripple" "^0.25.3"
+    "@material/base" "=14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "=14.0.0-canary.53b3cad2f.0"
+    "@material/list" "=14.0.0-canary.53b3cad2f.0"
+    "@material/mwc-base" "^0.27.0"
+    "@material/mwc-checkbox" "^0.27.0"
+    "@material/mwc-radio" "^0.27.0"
+    "@material/mwc-ripple" "^0.27.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-menu@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-menu/-/mwc-menu-0.25.3.tgz"
-  integrity sha512-jr5R61BfqrJC0lsAI63y4BsEM2eY3n6kiCy2ZnwinmxrfFrS709T/zuSUUW/xG9b9inSku4WjjSkDhPzQrmS3g==
+"@material/mwc-menu@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.npmjs.org/@material/mwc-menu/-/mwc-menu-0.27.0.tgz"
+  integrity sha512-K+L/t267ZGrlhjK/iSKUVZQKRMkWELArKVglfS5of93ALP4in0RGnj1sOG2u3IFI2F/mEZxRi+wr7HgNxpe0wA==
   dependencies:
-    "@material/menu" "=14.0.0-canary.261f2db59.0"
-    "@material/menu-surface" "=14.0.0-canary.261f2db59.0"
-    "@material/mwc-base" "^0.25.3"
-    "@material/mwc-list" "^0.25.3"
-    "@material/shape" "=14.0.0-canary.261f2db59.0"
-    "@material/theme" "=14.0.0-canary.261f2db59.0"
+    "@material/menu" "=14.0.0-canary.53b3cad2f.0"
+    "@material/menu-surface" "=14.0.0-canary.53b3cad2f.0"
+    "@material/mwc-base" "^0.27.0"
+    "@material/mwc-list" "^0.27.0"
+    "@material/shape" "=14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-notched-outline@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-notched-outline/-/mwc-notched-outline-0.25.3.tgz"
-  integrity sha512-8jvU8GD0Pke+pfTQ0PdXpZmkU3XIHhMVY6AHM/2IQrXHkVZmAm9kbwL7ne3Ao+6f5n+DeXDGd+SG9U6ZZjD7gw==
+"@material/mwc-notched-outline@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.npmjs.org/@material/mwc-notched-outline/-/mwc-notched-outline-0.27.0.tgz"
+  integrity sha512-IlqfQVaEd1RAHqhOG0Xk5JhTDgBe/P9og0pnACglK6bPE0vUhYKwibJiHcr4ACTPtGWHO9o92aktR+7AIEAKtQ==
   dependencies:
-    "@material/mwc-base" "^0.25.3"
-    "@material/notched-outline" "=14.0.0-canary.261f2db59.0"
+    "@material/mwc-base" "^0.27.0"
+    "@material/notched-outline" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-radio@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-radio/-/mwc-radio-0.25.3.tgz"
-  integrity sha512-SXpVDrsQnz7+2w/kfBxcOJ4P+uJ0RxBd9mCLE7wVyN53gDLkNHqA0npdl2PNpRaaMavVrt27L8wWo5QIT+7zWA==
+"@material/mwc-radio@^0.27.0":
+  version "0.27.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/mwc-radio/-/mwc-radio-0.27.0.tgz"
+  integrity sha512-+rSO9a373BgyMgQOM0Z8vVkuieobBylPJ8qpltytM+yGPj8+n+MtwRZyg+ry3WwEjYYDMP6GxZPHwLgWs6lMpQ==
   dependencies:
-    "@material/mwc-base" "^0.25.3"
-    "@material/mwc-ripple" "^0.25.3"
-    "@material/radio" "=14.0.0-canary.261f2db59.0"
+    "@material/mwc-base" "^0.27.0"
+    "@material/mwc-ripple" "^0.27.0"
+    "@material/radio" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-ripple@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-ripple/-/mwc-ripple-0.25.3.tgz"
-  integrity sha512-G/gt/csxgME6/sAku3GiuB0O2LLvoPWsRTLq/9iABpaGLJjqaKHvNg/IVzNDdF3YZT7EORgR9cBWWl7umA4i4Q==
+"@material/mwc-ripple@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.npmjs.org/@material/mwc-ripple/-/mwc-ripple-0.27.0.tgz"
+  integrity sha512-by0O8d8g3Rd96/sUB8hxy6MrDx1QTstqOsA64vqypWd526hMTBGRik08jTNap5sVIyrN9Vq17jb4NJLWQLnNHQ==
   dependencies:
-    "@material/dom" "=14.0.0-canary.261f2db59.0"
-    "@material/mwc-base" "^0.25.3"
-    "@material/ripple" "=14.0.0-canary.261f2db59.0"
+    "@material/dom" "=14.0.0-canary.53b3cad2f.0"
+    "@material/mwc-base" "^0.27.0"
+    "@material/ripple" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-select@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-select/-/mwc-select-0.25.3.tgz"
-  integrity sha512-mf1WrsNAW4rDHeVH+AgTPfNHAg70dJdwuIfIBqksAty3pYxnXQ9RjpL4Z/7kLdsGiS44du65vVgmZ63T0ifugQ==
+"@material/mwc-select@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.npmjs.org/@material/mwc-select/-/mwc-select-0.27.0.tgz"
+  integrity sha512-LTr2nl7gAYq8ung4eWfUz24mey4/K9vAlqJBo/uu6w0122C9X64szBS9kHAb87aD1oxLkxAJCDuv/wwlXV1i2w==
   dependencies:
-    "@material/dom" "=14.0.0-canary.261f2db59.0"
-    "@material/floating-label" "=14.0.0-canary.261f2db59.0"
-    "@material/line-ripple" "=14.0.0-canary.261f2db59.0"
-    "@material/list" "=14.0.0-canary.261f2db59.0"
-    "@material/mwc-base" "^0.25.3"
-    "@material/mwc-floating-label" "^0.25.3"
-    "@material/mwc-icon" "^0.25.3"
-    "@material/mwc-line-ripple" "^0.25.3"
-    "@material/mwc-list" "^0.25.3"
-    "@material/mwc-menu" "^0.25.3"
-    "@material/mwc-notched-outline" "^0.25.3"
-    "@material/select" "=14.0.0-canary.261f2db59.0"
+    "@material/dom" "=14.0.0-canary.53b3cad2f.0"
+    "@material/floating-label" "=14.0.0-canary.53b3cad2f.0"
+    "@material/line-ripple" "=14.0.0-canary.53b3cad2f.0"
+    "@material/list" "=14.0.0-canary.53b3cad2f.0"
+    "@material/mwc-base" "^0.27.0"
+    "@material/mwc-floating-label" "^0.27.0"
+    "@material/mwc-icon" "^0.27.0"
+    "@material/mwc-line-ripple" "^0.27.0"
+    "@material/mwc-list" "^0.27.0"
+    "@material/mwc-menu" "^0.27.0"
+    "@material/mwc-notched-outline" "^0.27.0"
+    "@material/select" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-switch@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-switch/-/mwc-switch-0.25.3.tgz"
-  integrity sha512-cjppRf17q70SdtTP0twMAzODJY7ztJFnfDDZKM5N72F4cp2q0VvhIU42hfBCGLIEbXPQBCLG0dxqt2Mo04qCcA==
+"@material/mwc-switch@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.npmjs.org/@material/mwc-switch/-/mwc-switch-0.27.0.tgz"
+  integrity sha512-MKKjm42f8YyHN1HmvfgppgTPJUxulcmOqND5R7zI/kB38vFcWDxEhnpdUYr2kEsFtebpYNSF0j6FXcKV/W+fJw==
   dependencies:
-    "@material/mwc-base" "^0.25.3"
-    "@material/mwc-ripple" "^0.25.3"
-    "@material/switch" "=14.0.0-canary.261f2db59.0"
+    "@material/mwc-base" "^0.27.0"
+    "@material/mwc-ripple" "^0.27.0"
+    "@material/switch" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/mwc-textfield@^0.25.3":
-  version "0.25.3"
-  resolved "https://registry.npmjs.org/@material/mwc-textfield/-/mwc-textfield-0.25.3.tgz"
-  integrity sha512-stpZ8sEyo2Mb9fG2XCoTc1Kom8oRXZiVI5rU88GtfcBU7nH0em8S4grq9X1mVfUG6Cfi1G/T+avCSIhzbYtr0w==
+"@material/mwc-textfield@^0.27.0":
+  version "0.27.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/mwc-textfield/-/mwc-textfield-0.27.0.tgz"
+  integrity sha512-4/OEeEVAWWQ1DzpjeMLYLsa9HMlifOPjAvi0681Yj1g/RYJs5ONZS80HZ8HOT+efAOlZDugshgM4gdNS3I0XFQ==
   dependencies:
-    "@material/floating-label" "=14.0.0-canary.261f2db59.0"
-    "@material/line-ripple" "=14.0.0-canary.261f2db59.0"
-    "@material/mwc-base" "^0.25.3"
-    "@material/mwc-floating-label" "^0.25.3"
-    "@material/mwc-line-ripple" "^0.25.3"
-    "@material/mwc-notched-outline" "^0.25.3"
-    "@material/textfield" "=14.0.0-canary.261f2db59.0"
+    "@material/floating-label" "=14.0.0-canary.53b3cad2f.0"
+    "@material/line-ripple" "=14.0.0-canary.53b3cad2f.0"
+    "@material/mwc-base" "^0.27.0"
+    "@material/mwc-floating-label" "^0.27.0"
+    "@material/mwc-line-ripple" "^0.27.0"
+    "@material/mwc-notched-outline" "^0.27.0"
+    "@material/textfield" "=14.0.0-canary.53b3cad2f.0"
     lit "^2.0.0"
     tslib "^2.0.1"
 
-"@material/notched-outline@=14.0.0-canary.261f2db59.0", "@material/notched-outline@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/notched-outline/-/notched-outline-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-gtn+IKAiX2rbfbX3a9aDlfUoKCEYrlAPOZifKXUaZ4UJYMNLzZuAqy7l5Ds30emtqUE22mySTEWqhzK6dePKsA==
+"@material/notched-outline@=14.0.0-canary.53b3cad2f.0", "@material/notched-outline@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/notched-outline/-/notched-outline-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-3ByiPOC/wWQmFKfgJS98kb5/6v92n7uIfJ6v6sryKJlJCJn39qfpGcCM5RpRIws1RET1s1zBJT2JDwYeu/hM5A==
   dependencies:
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/floating-label" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/shape" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/floating-label" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/shape" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/radio@=14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/radio/-/radio-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-AvrsOqhP8UZ5d58RWgaTmQVlWQRULwk2BXhsEhtxz56CmTsyVM49thNbaNnc/TzuY9Ssxv/L2wYVbR2B3BX9Yw==
+"@material/radio@=14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/radio/-/radio-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-V/AgWEOuHFoh9d4Gq1rqBZnKSGtMLQNh23Bwrv0c1FhPqFvUpwt9jR3SVwhJk5gvQQWGy9p3iiGc9QCJ+0+P8Q==
   dependencies:
-    "@material/animation" "14.0.0-canary.261f2db59.0"
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/density" "14.0.0-canary.261f2db59.0"
-    "@material/dom" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/ripple" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
-    "@material/touch-target" "14.0.0-canary.261f2db59.0"
+    "@material/animation" "14.0.0-canary.53b3cad2f.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/density" "14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/focus-ring" "14.0.0-canary.53b3cad2f.0"
+    "@material/ripple" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
+    "@material/touch-target" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/ripple@=14.0.0-canary.261f2db59.0", "@material/ripple@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/ripple/-/ripple-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-3FLCLj8X7KrFfuYBHJg1b7Odb3V/AW7fxk3m1i1zhDnygKmlQ/abVucH1s2qbX3Y+JIiq+5/C5407h9BFtOf+A==
+"@material/ripple@=14.0.0-canary.53b3cad2f.0", "@material/ripple@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/ripple/-/ripple-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-6g2G62vd8DsMuIUSXlRrzb98qkZ4o8ZREknNwNP2zaLQEOkJ//4j9HaqDt98/3LIjUTY9UIVFTQENiMmlwKHYQ==
   dependencies:
-    "@material/animation" "14.0.0-canary.261f2db59.0"
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/dom" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
+    "@material/animation" "14.0.0-canary.53b3cad2f.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/rtl@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/rtl/-/rtl-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-bVnXBbUsHs57+EXdeFbcwaKy3lT/itI/qTLmJ88ar0qaGEujO1GmESHm3ioqkeo4kQpTfDhBwQGeEi1aDaTdFg==
+"@material/rtl@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/rtl/-/rtl-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-f08LT0HSa0WYU+4Jz/tbm1TQ9Fcf2k+H6dPPYv0J1sZmX6hMgCEmNiUdUFLQFvszoXx2XrRi1/hIFjbz2e69Yg==
   dependencies:
-    "@material/theme" "14.0.0-canary.261f2db59.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/select@=14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/select/-/select-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-r/D3e75H/sg+7iv+dkiyQ9cg8R6koHQJl85/gZqOlHpaQGSH5gSxpVeILkRY+ic6obQTdQCPRvUi9kzUve5zEg==
+"@material/select@=14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://registry.npmjs.org/@material/select/-/select-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-fAiTaHZ1PIEmCUbufS+IZvsWO0hDxtbU8rOsbmSu1oupAboP7jSgOVgcCGdT9KY5WacrniIIMO6jZjhnvrC0Lg==
   dependencies:
-    "@material/animation" "14.0.0-canary.261f2db59.0"
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/density" "14.0.0-canary.261f2db59.0"
-    "@material/dom" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/floating-label" "14.0.0-canary.261f2db59.0"
-    "@material/line-ripple" "14.0.0-canary.261f2db59.0"
-    "@material/list" "14.0.0-canary.261f2db59.0"
-    "@material/menu" "14.0.0-canary.261f2db59.0"
-    "@material/menu-surface" "14.0.0-canary.261f2db59.0"
-    "@material/notched-outline" "14.0.0-canary.261f2db59.0"
-    "@material/ripple" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/shape" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
-    "@material/typography" "14.0.0-canary.261f2db59.0"
+    "@material/animation" "14.0.0-canary.53b3cad2f.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/density" "14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "14.0.0-canary.53b3cad2f.0"
+    "@material/elevation" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/floating-label" "14.0.0-canary.53b3cad2f.0"
+    "@material/line-ripple" "14.0.0-canary.53b3cad2f.0"
+    "@material/list" "14.0.0-canary.53b3cad2f.0"
+    "@material/menu" "14.0.0-canary.53b3cad2f.0"
+    "@material/menu-surface" "14.0.0-canary.53b3cad2f.0"
+    "@material/notched-outline" "14.0.0-canary.53b3cad2f.0"
+    "@material/ripple" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/shape" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
+    "@material/tokens" "14.0.0-canary.53b3cad2f.0"
+    "@material/typography" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/shape@=14.0.0-canary.261f2db59.0", "@material/shape@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/shape/-/shape-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-VjcQltd1uF9ugvLExMy00SMISjy/370o8lsZlb1T+xHyhXHL3UxeuWYLW5Amq6mbx65+c9Df9WmlXXOdebpEkw==
+"@material/shape@=14.0.0-canary.53b3cad2f.0", "@material/shape@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/shape/-/shape-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-RyjInLCNe+nI/ulKea0ZLHphXQDiDqYazS25SRn18g8Hoa5qGNaY5oOBncDXUYn3jm5oI5kFc9oif//kulkbjg==
   dependencies:
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/switch@=14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/switch/-/switch-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-WoHxAeTVh43OAwkdC9uWI5caVwCCn0JrxMbPYAonbuoGAn/blXECuDtSpXD3m+05RwSgUHlX9n14nb3SGQMOYw==
+"@material/switch@=14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://registry.npmjs.org/@material/switch/-/switch-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-hL7lOF8tgYaS1Spce6zlxfveoqUlqDTW+vv+R7TIHwzLD5HJCdhTiotXshOKCZLoSi7Ljx7JpCdvNqGlv4rpIw==
   dependencies:
-    "@material/animation" "14.0.0-canary.261f2db59.0"
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/density" "14.0.0-canary.261f2db59.0"
-    "@material/dom" "14.0.0-canary.261f2db59.0"
-    "@material/elevation" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/ripple" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/shape" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
-    "@material/tokens" "14.0.0-canary.261f2db59.0"
+    "@material/animation" "14.0.0-canary.53b3cad2f.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/density" "14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "14.0.0-canary.53b3cad2f.0"
+    "@material/elevation" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/focus-ring" "14.0.0-canary.53b3cad2f.0"
+    "@material/ripple" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/shape" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
+    "@material/tokens" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/textfield@=14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/textfield/-/textfield-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-KBPgpvvVFBfLx9nc6+wWOS2hJ40JVwh5KBjMoYbiOEFLf0O7SgCAVREHaFAXrPsC8AeTyUipx6TReONIGfMCPQ==
+"@material/textfield@=14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/textfield/-/textfield-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-Pla9Tr94Is18o97E/mqHKdkR24rPES9atGm3BlXrNzyr5tu6+h++RBbxy7V6IExcfl0MX+v9Gyqz7sPZzFtwMA==
   dependencies:
-    "@material/animation" "14.0.0-canary.261f2db59.0"
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/density" "14.0.0-canary.261f2db59.0"
-    "@material/dom" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/floating-label" "14.0.0-canary.261f2db59.0"
-    "@material/line-ripple" "14.0.0-canary.261f2db59.0"
-    "@material/notched-outline" "14.0.0-canary.261f2db59.0"
-    "@material/ripple" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
-    "@material/shape" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
-    "@material/typography" "14.0.0-canary.261f2db59.0"
+    "@material/animation" "14.0.0-canary.53b3cad2f.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/density" "14.0.0-canary.53b3cad2f.0"
+    "@material/dom" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/floating-label" "14.0.0-canary.53b3cad2f.0"
+    "@material/line-ripple" "14.0.0-canary.53b3cad2f.0"
+    "@material/notched-outline" "14.0.0-canary.53b3cad2f.0"
+    "@material/ripple" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
+    "@material/shape" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
+    "@material/tokens" "14.0.0-canary.53b3cad2f.0"
+    "@material/typography" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/theme@=14.0.0-canary.261f2db59.0", "@material/theme@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/theme/-/theme-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-bUqyFT0QF8Nxx02fekt3CXIfC9DEPOPdo2hjgdtvhrNP+vftbkI2tKZ5/uRUnVA+zqQAOyIl5z6FOMg4fyemCA==
+"@material/theme@=14.0.0-canary.53b3cad2f.0", "@material/theme@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/theme/-/theme-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-S06XAevDCDWMe+GgsEpITMS07imUidzadNaTbJsqssFajBLr53QWVZsG84BpjXKXoYvyEJvb0hX5U0lq6ip9UQ==
   dependencies:
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/tokens@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/tokens/-/tokens-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-mgar9gsLv00HTvXIDvNR1vEEXpfKgeWhVTO8a7aWofSNyENNOVc5ImJwBgCAMb5SgLHBi6w8/c1tPzjOewBfCA==
+"@material/tokens@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://registry.npmjs.org/@material/tokens/-/tokens-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-myHFB7vac8zErA3qgkqmV+kpE+i9JEwc/6Yf0MOumDSpylJGw28QikpNC6eAVBK2EmPQTaFn20mqUxyud8dGqw==
   dependencies:
-    "@material/elevation" "14.0.0-canary.261f2db59.0"
+    "@material/elevation" "14.0.0-canary.53b3cad2f.0"
 
-"@material/touch-target@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/touch-target/-/touch-target-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-xA6TTHN7aOTXg/+c6mQJlogzTD+Sp8WPC5TK8RBXbQxEykGXGW15p+H9pG+rX/gzD5iehnHRBrDUFmAGoskhcQ==
+"@material/touch-target@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/touch-target/-/touch-target-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-d83e5vbqoLyL542yOTTp4TLVltddWiqbI/j1w/D9ipE30YKfe2EDN+CNJc32Zufh5IUfK41DsZdrN8fI9cL99A==
   dependencies:
-    "@material/base" "14.0.0-canary.261f2db59.0"
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/rtl" "14.0.0-canary.261f2db59.0"
+    "@material/base" "14.0.0-canary.53b3cad2f.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/rtl" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
-"@material/typography@14.0.0-canary.261f2db59.0":
-  version "14.0.0-canary.261f2db59.0"
-  resolved "https://registry.npmjs.org/@material/typography/-/typography-14.0.0-canary.261f2db59.0.tgz"
-  integrity sha512-WOCdcNkD5KBRAwICcRqWBRG3cDkyrwK5USTNmG0oxnwnZAN7daOpPTdLppVAhadE7faj8d67ON+V9pH7+T62FQ==
+"@material/typography@14.0.0-canary.53b3cad2f.0":
+  version "14.0.0-canary.53b3cad2f.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@material/typography/-/typography-14.0.0-canary.53b3cad2f.0.tgz"
+  integrity sha512-9J0k2fq7uyHsRzRqJDJLGmg3YzRpfRPtFDVeUH/xBcYoqpZE7wYw5Mb7s/l8eP626EtR7HhXhSPjvRTLA6NIJg==
   dependencies:
-    "@material/feature-targeting" "14.0.0-canary.261f2db59.0"
-    "@material/theme" "14.0.0-canary.261f2db59.0"
+    "@material/feature-targeting" "14.0.0-canary.53b3cad2f.0"
+    "@material/theme" "14.0.0-canary.53b3cad2f.0"
     tslib "^2.1.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
-  resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
   integrity sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==
   dependencies:
     "@nodelib/fs.stat" "2.0.5"
@@ -828,12 +848,12 @@
 
 "@nodelib/fs.stat@^2.0.2", "@nodelib/fs.stat@2.0.5":
   version "2.0.5"
-  resolved "https://registry.npmjs.org/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz"
   integrity sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==
 
 "@nodelib/fs.walk@^1.2.3":
   version "1.2.8"
-  resolved "https://registry.npmjs.org/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz"
   integrity sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
@@ -873,10 +893,10 @@
   resolved "https://registry.npmjs.org/@types/estree/-/estree-0.0.39.tgz"
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
-"@types/json-schema@^7.0.7":
-  version "7.0.9"
-  resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz"
-  integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
+"@types/json-schema@^7.0.12":
+  version "7.0.15"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@types/json-schema/-/json-schema-7.0.15.tgz"
+  integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
@@ -895,38 +915,34 @@
   dependencies:
     "@types/node" "*"
 
+"@types/semver@^7.5.0":
+  version "7.5.6"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@types/semver/-/semver-7.5.6.tgz"
+  integrity sha512-dn1l8LaMea/IjDoHNd9J52uBbInB796CDffS6VdIxvqYCPSG0V0DzHp76GpaWnlhg88uYyPbXCDIowa86ybd5A==
+
 "@types/trusted-types@^2.0.2":
   version "2.0.7"
   resolved "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz"
   integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
 
-"@typescript-eslint/eslint-plugin@^4.33.0":
-  version "4.33.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.33.0.tgz"
-  integrity sha512-aINiAxGVdOl1eJyVjaWn/YcVAq4Gi/Yo35qHGCnqbWVz61g39D0h23veY/MA0rFFGfxK7TySg2uwDeNv+JgVpg==
+"@typescript-eslint/eslint-plugin@^6.20.0":
+  version "6.20.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.20.0.tgz"
+  integrity sha512-fTwGQUnjhoYHeSF6m5pWNkzmDDdsKELYrOBxhjMrofPqCkoC2k3B2wvGHFxa1CTIqkEn88nlW1HVMztjo2K8Hg==
   dependencies:
-    "@typescript-eslint/experimental-utils" "4.33.0"
-    "@typescript-eslint/scope-manager" "4.33.0"
-    debug "^4.3.1"
-    functional-red-black-tree "^1.0.1"
-    ignore "^5.1.8"
-    regexpp "^3.1.0"
-    semver "^7.3.5"
-    tsutils "^3.21.0"
+    "@eslint-community/regexpp" "^4.5.1"
+    "@typescript-eslint/scope-manager" "6.20.0"
+    "@typescript-eslint/type-utils" "6.20.0"
+    "@typescript-eslint/utils" "6.20.0"
+    "@typescript-eslint/visitor-keys" "6.20.0"
+    debug "^4.3.4"
+    graphemer "^1.4.0"
+    ignore "^5.2.4"
+    natural-compare "^1.4.0"
+    semver "^7.5.4"
+    ts-api-utils "^1.0.1"
 
-"@typescript-eslint/experimental-utils@4.33.0":
-  version "4.33.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/experimental-utils/-/experimental-utils-4.33.0.tgz"
-  integrity sha512-zeQjOoES5JFjTnAhI5QY7ZviczMzDptls15GFsI6jyUOq0kOf9+WonkhtlIhh0RgHRnqj5gdNxW5j1EvAyYg6Q==
-  dependencies:
-    "@types/json-schema" "^7.0.7"
-    "@typescript-eslint/scope-manager" "4.33.0"
-    "@typescript-eslint/types" "4.33.0"
-    "@typescript-eslint/typescript-estree" "4.33.0"
-    eslint-scope "^5.1.1"
-    eslint-utils "^3.0.0"
-
-"@typescript-eslint/parser@^4.0.0", "@typescript-eslint/parser@^4.33.0":
+"@typescript-eslint/parser@^4.33.0", "@typescript-eslint/parser@^6.0.0 || ^6.0.0-alpha":
   version "4.33.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-4.33.0.tgz"
   integrity sha512-ZohdsbXadjGBSK0/r+d87X0SBmKzOq4/S5nzK6SBgJspFo9/CUDJ7hjayuze+JK7CZQLDMroqytp7pOcFKTxZA==
@@ -944,10 +960,33 @@
     "@typescript-eslint/types" "4.33.0"
     "@typescript-eslint/visitor-keys" "4.33.0"
 
+"@typescript-eslint/scope-manager@6.20.0":
+  version "6.20.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@typescript-eslint/scope-manager/-/scope-manager-6.20.0.tgz"
+  integrity sha512-p4rvHQRDTI1tGGMDFQm+GtxP1ZHyAh64WANVoyEcNMpaTFn3ox/3CcgtIlELnRfKzSs/DwYlDccJEtr3O6qBvA==
+  dependencies:
+    "@typescript-eslint/types" "6.20.0"
+    "@typescript-eslint/visitor-keys" "6.20.0"
+
+"@typescript-eslint/type-utils@6.20.0":
+  version "6.20.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@typescript-eslint/type-utils/-/type-utils-6.20.0.tgz"
+  integrity sha512-qnSobiJQb1F5JjN0YDRPHruQTrX7ICsmltXhkV536mp4idGAYrIyr47zF/JmkJtEcAVnIz4gUYJ7gOZa6SmN4g==
+  dependencies:
+    "@typescript-eslint/typescript-estree" "6.20.0"
+    "@typescript-eslint/utils" "6.20.0"
+    debug "^4.3.4"
+    ts-api-utils "^1.0.1"
+
 "@typescript-eslint/types@4.33.0":
   version "4.33.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/types/-/types-4.33.0.tgz"
   integrity sha512-zKp7CjQzLQImXEpLt2BUw1tvOMPfNoTAfb8l51evhYbOEEzdWyQNmHWWGPR6hwKJDAi+1VXSBmnhL9kyVTTOuQ==
+
+"@typescript-eslint/types@6.20.0":
+  version "6.20.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@typescript-eslint/types/-/types-6.20.0.tgz"
+  integrity sha512-MM9mfZMAhiN4cOEcUOEx+0HmuaW3WBfukBZPCfwSqFnQy0grXYtngKCqpQN339X3RrwtzspWJrpbrupKYUSBXQ==
 
 "@typescript-eslint/typescript-estree@4.33.0":
   version "4.33.0"
@@ -962,6 +1001,33 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
+"@typescript-eslint/typescript-estree@6.20.0":
+  version "6.20.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@typescript-eslint/typescript-estree/-/typescript-estree-6.20.0.tgz"
+  integrity sha512-RnRya9q5m6YYSpBN7IzKu9FmLcYtErkDkc8/dKv81I9QiLLtVBHrjz+Ev/crAqgMNW2FCsoZF4g2QUylMnJz+g==
+  dependencies:
+    "@typescript-eslint/types" "6.20.0"
+    "@typescript-eslint/visitor-keys" "6.20.0"
+    debug "^4.3.4"
+    globby "^11.1.0"
+    is-glob "^4.0.3"
+    minimatch "9.0.3"
+    semver "^7.5.4"
+    ts-api-utils "^1.0.1"
+
+"@typescript-eslint/utils@6.20.0":
+  version "6.20.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@typescript-eslint/utils/-/utils-6.20.0.tgz"
+  integrity sha512-/EKuw+kRu2vAqCoDwDCBtDRU6CTKbUmwwI7SH7AashZ+W+7o8eiyy6V2cdOqN49KsTcASWsC5QeghYuRDTyOOg==
+  dependencies:
+    "@eslint-community/eslint-utils" "^4.4.0"
+    "@types/json-schema" "^7.0.12"
+    "@types/semver" "^7.5.0"
+    "@typescript-eslint/scope-manager" "6.20.0"
+    "@typescript-eslint/types" "6.20.0"
+    "@typescript-eslint/typescript-estree" "6.20.0"
+    semver "^7.5.4"
+
 "@typescript-eslint/visitor-keys@4.33.0":
   version "4.33.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-4.33.0.tgz"
@@ -969,6 +1035,14 @@
   dependencies:
     "@typescript-eslint/types" "4.33.0"
     eslint-visitor-keys "^2.0.0"
+
+"@typescript-eslint/visitor-keys@6.20.0":
+  version "6.20.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/@typescript-eslint/visitor-keys/-/visitor-keys-6.20.0.tgz"
+  integrity sha512-E8Cp98kRe4gKHjJD4NExXKz/zOJ1A2hhZc+IMVD6i7w4yjIvh6VyuRI0gRtxAsXtoC35uGMaQ9rjI2zJaXDEAw==
+  dependencies:
+    "@typescript-eslint/types" "6.20.0"
+    eslint-visitor-keys "^3.4.1"
 
 "@yarn-tool/resolve-package@^1.0.40":
   version "1.0.47"
@@ -1099,6 +1173,13 @@ brace-expansion@^1.1.7:
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
+
+brace-expansion@^2.0.1:
+  version "2.0.1"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/brace-expansion/-/brace-expansion-2.0.1.tgz"
+  integrity sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==
+  dependencies:
+    balanced-match "^1.0.0"
 
 braces@^3.0.1:
   version "3.0.2"
@@ -1267,7 +1348,7 @@ debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
+debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -1461,13 +1542,6 @@ eslint-utils@^2.1.0:
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-eslint-utils@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/eslint-utils/-/eslint-utils-3.0.0.tgz"
-  integrity sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==
-  dependencies:
-    eslint-visitor-keys "^2.0.0"
-
 eslint-visitor-keys@^1.1.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.3.0.tgz"
@@ -1483,7 +1557,17 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz"
   integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
-eslint@*, "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^5.16.0 || ^6.8.0 || ^7.2.0", eslint@^7.32.0, eslint@>=5, eslint@>=7.0.0, eslint@>=7.28.0:
+eslint-visitor-keys@^3.3.0:
+  version "3.4.3"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz"
+  integrity sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==
+
+eslint-visitor-keys@^3.4.1:
+  version "3.4.3"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz"
+  integrity sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==
+
+"eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^5.16.0 || ^6.8.0 || ^7.2.0", "eslint@^6.0.0 || ^7.0.0 || >=8.0.0", "eslint@^7.0.0 || ^8.0.0", eslint@^7.32.0, eslint@>=7.0.0, eslint@>=7.28.0:
   version "7.32.0"
   resolved "https://registry.npmjs.org/eslint/-/eslint-7.32.0.tgz"
   integrity sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==
@@ -1602,10 +1686,10 @@ fast-diff@^1.1.2:
   resolved "https://registry.npmjs.org/fast-diff/-/fast-diff-1.2.0.tgz"
   integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
-fast-glob@^3.1.1:
-  version "3.2.7"
-  resolved "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.7.tgz"
-  integrity sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==
+fast-glob@^3.2.9:
+  version "3.3.2"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/fast-glob/-/fast-glob-3.3.2.tgz"
+  integrity sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -1624,9 +1708,9 @@ fast-levenshtein@^2.0.6:
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc= sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==
 
 fastq@^1.6.0:
-  version "1.13.0"
-  resolved "https://registry.npmjs.org/fastq/-/fastq-1.13.0.tgz"
-  integrity sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==
+  version "1.17.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/fastq/-/fastq-1.17.0.tgz"
+  integrity sha512-zGygtijUMT7jnk3h26kUms3BkSDp4IfIKjmnqI2tvx6nuBfiF1UqOxbnLfzdv+apBy+53oaImsKtMw/xYbW+1w==
   dependencies:
     reusify "^1.0.4"
 
@@ -1788,22 +1872,27 @@ globals@^13.9.0:
   dependencies:
     type-fest "^0.20.2"
 
-globby@^11.0.3:
-  version "11.0.4"
-  resolved "https://registry.npmjs.org/globby/-/globby-11.0.4.tgz"
-  integrity sha512-9O4MVG9ioZJ08ffbcyVYyLOJLk5JQ688pJ4eMGLpdWLHq/Wr1D9BlriLQyL0E+jbkuePVZXYFj47QM/v093wHg==
+globby@^11.0.3, globby@^11.1.0:
+  version "11.1.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/globby/-/globby-11.1.0.tgz"
+  integrity sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==
   dependencies:
     array-union "^2.1.0"
     dir-glob "^3.0.1"
-    fast-glob "^3.1.1"
-    ignore "^5.1.4"
-    merge2 "^1.3.0"
+    fast-glob "^3.2.9"
+    ignore "^5.2.0"
+    merge2 "^1.4.1"
     slash "^3.0.0"
 
 graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.2"
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.2.tgz"
   integrity sha512-IItsdsea19BoLC7ELy13q1iJFNmd7ofZH5+X/pJr90/nRoPEX0DJo1dHDbgtYWOhJhcCgMDTOw84RZ72q6lB+Q==
+
+graphemer@^1.4.0:
+  version "1.4.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/graphemer/-/graphemer-1.4.0.tgz"
+  integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
 has-bigints@^1.0.1:
   version "1.0.1"
@@ -1854,10 +1943,10 @@ ignore@^4.0.6:
   resolved "https://registry.npmjs.org/ignore/-/ignore-4.0.6.tgz"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
-ignore@^5.1.4, ignore@^5.1.8:
-  version "5.1.8"
-  resolved "https://registry.npmjs.org/ignore/-/ignore-5.1.8.tgz"
-  integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
+ignore@^5.2.0, ignore@^5.2.4:
+  version "5.3.0"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/ignore/-/ignore-5.3.0.tgz"
+  integrity sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==
 
 import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.3.0"
@@ -1964,7 +2053,7 @@ is-fullwidth-code-point@^3.0.0:
   resolved "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz"
   integrity sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==
 
-is-glob@^4.0.0, is-glob@^4.0.1:
+is-glob@^4.0.0, is-glob@^4.0.1, is-glob@^4.0.3:
   version "4.0.3"
   resolved "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz"
   integrity sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==
@@ -2218,9 +2307,9 @@ merge-stream@^2.0.0:
   resolved "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
   integrity sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==
 
-merge2@^1.3.0:
+merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
-  resolved "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/merge2/-/merge2-1.4.1.tgz"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
 micromatch@^4.0.2, micromatch@^4.0.4:
@@ -2242,6 +2331,13 @@ minimatch@^3.0.4:
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
+
+minimatch@9.0.3:
+  version "9.0.3"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/minimatch/-/minimatch-9.0.3.tgz"
+  integrity sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==
+  dependencies:
+    brace-expansion "^2.0.1"
 
 minimist@^1.2.0:
   version "1.2.8"
@@ -2540,7 +2636,7 @@ punycode@^2.1.0:
 
 queue-microtask@^1.2.2:
   version "1.2.3"
-  resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
 randombytes@^2.1.0:
@@ -2592,7 +2688,7 @@ resolve@^1.10.0, resolve@^1.11.0, resolve@^1.11.1, resolve@^1.20.0:
 
 reusify@^1.0.4:
   version "1.0.4"
-  resolved "https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/reusify/-/reusify-1.0.4.tgz"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
 
 rimraf@^3.0.2:
@@ -2678,7 +2774,7 @@ rollup-pluginutils@^2.8.1:
 
 run-parallel@^1.1.9:
   version "1.2.0"
-  resolved "https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/run-parallel/-/run-parallel-1.2.0.tgz"
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
@@ -2703,6 +2799,13 @@ semver@^7.2.1:
 semver@^7.3.5:
   version "7.5.4"
   resolved "https://registry.npmjs.org/semver/-/semver-7.5.4.tgz"
+  integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
+  dependencies:
+    lru-cache "^6.0.0"
+
+semver@^7.5.4:
+  version "7.5.4"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/semver/-/semver-7.5.4.tgz"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
   dependencies:
     lru-cache "^6.0.0"
@@ -2923,6 +3026,11 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+ts-api-utils@^1.0.1:
+  version "1.0.3"
+  resolved "https://artifactory.boschdevcloud.com/artifactory/api/npm/lab000003-bci-npm-virtual/ts-api-utils/-/ts-api-utils-1.0.3.tgz"
+  integrity sha512-wNMeqtMz5NtwpT/UZGY5alT+VoKdSsOOP/kqHFcUW1P/VRhH2wJ48+DN2WwUliNbQ976ETwDL0Ifd2VVvgonvg==
+
 tsconfig-paths@^3.11.0:
   version "3.11.0"
   resolved "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.11.0.tgz"
@@ -2972,7 +3080,7 @@ typescript@^3.8.3:
   resolved "https://registry.npmjs.org/typescript/-/typescript-3.8.3.tgz"
   integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
 
-typescript@^4.4.3, typescript@>=2.4.0, "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+typescript@^4.4.3, typescript@>=2.4.0, "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", typescript@>=4.2.0:
   version "4.4.3"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.4.3.tgz"
   integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
