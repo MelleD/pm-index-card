@@ -95,7 +95,7 @@ export class PMIndexCard extends LitElement {
     // const showRecommendation = this.config.show_recommendation;
 
     let colorTriangleValue = 1;
-    let pmRiskStr = 'pm_levels.low'
+    let pmRiskLevel = 'pm_levels.low'
     let pmRisk = 'pm_risk.low'
 
     if (this.config.pm_10) {
@@ -107,7 +107,7 @@ export class PMIndexCard extends LitElement {
       }
 
       if (stateValue >= 12 && stateValue < 35) {
-        pmRiskStr = 'pm_levels.moderate'
+        pmRiskLevel = 'pm_levels.moderate'
         pmRisk = 'pm_risk.moderate'
         colorTriangleValue = 3;
 
@@ -122,7 +122,7 @@ export class PMIndexCard extends LitElement {
       }
 
       if (stateValue >= 35 && stateValue < 55) {
-        pmRiskStr = 'pm_levels.high'
+        pmRiskLevel = 'pm_levels.high'
         pmRisk = 'pm_risk.high'
         colorTriangleValue = 6;
 
@@ -133,7 +133,7 @@ export class PMIndexCard extends LitElement {
       }
 
       if (stateValue >= 55 && stateValue < 150) {
-        pmRiskStr = 'pm_levels.very_high'
+        pmRiskLevel = 'pm_levels.very_high'
         pmRisk = 'pm_risk.very_high'
 
         colorTriangleValue = 8;
@@ -148,7 +148,7 @@ export class PMIndexCard extends LitElement {
       }
 
       if (stateValue >= 150) {
-        pmRiskStr = 'pm_levels.extreme'
+        pmRiskLevel = 'pm_levels.extreme'
         pmRisk = 'pm_risk.extreme'
         colorTriangleValue = 11;
 
@@ -207,7 +207,7 @@ export class PMIndexCard extends LitElement {
             <div>
               <p>
                 <span style="font-weight: bold;">${localize('common.pm_risk_level', '', '', this.config.language)}</span><br/>
-                ${localize(pmRiskStr, '', '', this.config.language)}
+                ${localize(pmRiskLevel, '', '', this.config.language)}
               </p>
             </div>
             <div>
