@@ -203,7 +203,7 @@ export class PMIndexCard extends LitElement {
             <div>
               <p>
                 <span style="font-weight: bold;">${localize('common.pm_index', '', '', this.config.language)}</span><br/>
-                ${stateValue} µg/m³
+                ${stateValue} Âµg/mÂ³
               </p>
             </div>
             <div>
