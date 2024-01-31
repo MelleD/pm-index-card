@@ -5,8 +5,8 @@
     "show_warning": "Show Warning",
     "show_error": "Show Error",
     "pm_index": "PM Index",
-    "pm_risk": "PM Risk",
-    "pm_recommendation": "Recommendation"
+    "pm_risk_level": "PM Risk level",
+    "pm_risk": "Risk"
   },
   "pm_levels": {
     "low": "Low",
@@ -16,10 +16,10 @@
     "extreme": "Extreme"
   },
   "pm_recommendation_levels": {
-    "low": "Air quality poses no risk",
-    "moderate": "If you have known respiratory problems, avoid outdoor activities",
-    "high": "Risk of irritation and breathing problems",
-    "very_high": "High risk to head and lungs",
-    "extreme": "Staying outdoors should be avoided"
+    "low": "No risk",
+    "moderate": "Moderate for breathing problems",
+    "high": "High for breathing problems",
+    "very_high": "High for the lungs and head",
+    "extreme": "Extreme for the lungs and head"
   }
 }
