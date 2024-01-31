@@ -58,6 +58,7 @@ entity: sensor.pm_2_5
 
 ![Default](https://github.com/MelleD/pm-index-card/blob/master/docs/images/pm-index-card.png?raw=true)
 
+![Default](https://github.com/MelleD/pm-index-card/blob/master/docs/images/pm-index-card1.png?raw=true)
 
 ## Options
 
