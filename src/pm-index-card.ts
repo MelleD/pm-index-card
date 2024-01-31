@@ -211,11 +211,11 @@ export class PMIndexCard extends LitElement {
               </p>
             </div>
             <div>
-            <p>
-              <span style="font-weight: bold;">${localize('common.pm_risk', '', '', this.config.language)}</span><br/>
-              <SMALL>${localize(pmRisk, '', '', this.config.language)}</SMALL>
-            </p>
-          </div>
+              <p>
+                <span style="font-weight: bold;">${localize('common.pm_risk', '', '', this.config.language)}</span><br/>
+                <SMALL>${localize(pmRisk, '', '', this.config.language)}</SMALL>
+              </p>
+            </div>
           </div>
         </div>
       </ha-card>
