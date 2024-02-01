@@ -94,7 +94,7 @@ export class PMIndexCard extends LitElement {
     const stateValue:number = entityState ? parseFloat(entityState.state) : 0;
     // const showRecommendation = this.config.show_recommendation;
 
-    let colorTriangleValue = 1;
+    let colorTriangleValue = 0;
     let pmRiskLevel = 'pm_levels.low'
     let pmRisk = 'pm_risk.low'
 
@@ -103,6 +103,10 @@ export class PMIndexCard extends LitElement {
     }else{
       // Scala Index pm 2.5
       if (stateValue >= 5) {
+        colorTriangleValue = 1;
+      }
+
+      if (stateValue >= 9) {
         colorTriangleValue = 2;
       }
 
