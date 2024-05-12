@@ -13,14 +13,14 @@ import {
 
 import type { PMIndexCardConfig } from './types';
 import { actionHandler } from './action-handler-directive';
-import { CARD_VERSION } from './const';
 import { localize } from './localize/localize';
+import { version } from '../package.json';
 
 import './editor';
 
 /* eslint no-console: 0 */
 console.info(
-  `%c  PM-INDEX-CARD \n%c  ${localize('common.version')} ${CARD_VERSION}    `,
+  `%c  PM-INDEX-CARD \n%c  ${localize('common.version')} ${version}    `,
   'color: orange; font-weight: bold; background: black',
   'color: white; font-weight: bold; background: dimgray',
 );

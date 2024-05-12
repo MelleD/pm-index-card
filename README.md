@@ -1,16 +1,18 @@
 # PM Index card
 
+[![release][release-badge]][release-url]
+![downloads][downloads-badge]
+![build][build-badge]
+
+<a href="https://www.paypal.me/MelleDennis" target="_blank"><img src="https://www.paypalobjects.com/webstatic/paypalme/images/social/pplogo384.png" alt="PayPal.Me MelleDennis" style="height: 50px !important;width: 50px !important;" ></a>
+
+## Introduction
+
 A custom Lovelace card that displays the PM (2.5 or 10) index and risk level in [Home Assistant](https://home-assistant.io/).
 
 The card was copied from the [uv-index-card](https://github.com/t1gr0u/uv-index-card). Big thank you @t1gr0u
 for allowing me to copy and adapt the card.
 
-
-[![GitHub Release][releases-shield]][releases-link] [![GitHub Release Date][release-date-shield]][releases-link] [![GitHub Releases][latest-download-shield]][traffic-link] [![GitHub Releases][total-download-shield]][traffic-link]
-
-[![HACS Badge][hacs-shield]][hacs-link] [![HomeAssistant][home-assistant-shield]][home-assistant-link] [![License][license-shield]][license-link]
-
-![Project Maintenance][maintenance-shield] [![GitHub Activity][activity-shield]][activity-link] [![Open bugs][bugs-shield]][bugs-link] [![Open enhancements][enhancements-shield]][enhancement-link]
 
 
 ## Installation
@@ -116,24 +118,14 @@ If you wish to add a language please follow these steps:
 
 Clone and create a PR to help make the card even better.
 
-[releases-shield]: https://img.shields.io/github/release/MelleD/pm-index-card.svg?style=flat-square
-[releases-link]: https://github.com/MelleD/pm-index-card/releases/latest
-[release-date-shield]: https://img.shields.io/github/release-date/MelleD/pm-index-card?style=flat-square
-[latest-download-shield]: https://img.shields.io/github/downloads/MelleD/pm-index-card/latest/total?style=flat-square&label=downloads%20latest%20release
-[total-download-shield]: https://img.shields.io/github/downloads/MelleD/pm-index-card/total?style=flat-square&label=total%20views
-[traffic-link]: https://github.com/MelleD/pm-index-card/graphs/traffic
-[hacs-shield]: https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square
-[hacs-link]: https://github.com/custom-components/hacs
-[home-assistant-shield]: https://img.shields.io/badge/Home%20Assistant-visual%20editor/yaml-green?style=flat-square
-[home-assistant-link]: https://www.home-assistant.io/
-[license-shield]: https://img.shields.io/github/license/custom-cards/boilerplate-card.svg?style=flat-square
-[license-link]: LICENSE.md
-[activity-shield]: https://img.shields.io/github/commit-activity/y/MelleD/pm-index-card.svg?style=flat-square
-[activity-link]: https://github.com/MelleD/pm-index-card/commits/master
-[bugs-shield]: https://img.shields.io/github/issues/MelleD/pm-index-card/bug?color=red&style=flat-square&label=bugs
-[bugs-link]: https://github.com/MelleD/pm-index-card/labels/bug
-[enhancements-shield]: https://img.shields.io/github/issues/MelleD/pm-index-card/enhancement?color=blue&style=flat-square&label=enhancements
-[enhancement-link]: https://github.com/MelleD/pm-index-card/labels/enhancement
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg?style=flat-square
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=flat-square
-[forum-link]: https://community.home-assistant.io/t/pm-index-card/543446
+<!-- Badges -->
+
+[release-badge]: https://img.shields.io/github/v/release/MelleD/pm-index-card?style=flat-square
+[downloads-badge]: https://img.shields.io/github/downloads/MelleD/pm-index-card/total?style=flat-square
+[build-badge]: https://img.shields.io/github/actions/workflow/status/MelleD/pm-index-card/build.yml?branch=main&style=flat-square
+
+<!-- References -->
+
+[home-assistant]: https://www.home-assistant.io/
+[hacs]: https://hacs.xyz
+[release-url]: https://github.com/MelleD/pm-index-card/releases
