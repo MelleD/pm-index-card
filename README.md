@@ -4,7 +4,9 @@
 ![downloads][downloads-badge]
 ![build][build-badge]
 
-<a href="https://www.paypal.me/MelleDennis" target="_blank"><img src="https://www.paypalobjects.com/webstatic/paypalme/images/social/pplogo384.png" alt="PayPal.Me MelleDennis" style="height: 50px !important;width: 50px !important;" ></a>
+<a href="https://www.paypal.me/MelleDennis" target="_blank"><img src="https://github.com/MelleD/pm-index-card/blob/main/docs/images/pplogo.png" alt="PayPal.Me MelleDennis" style="height: 50px !important;width: 50px !important;" ></a>
+
+<a href="https://www.buymeacoffee.com/melled" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## Introduction
 
@@ -13,13 +15,18 @@ A custom Lovelace card that displays the PM (2.5 or 10) index and risk level in 
 The card was copied from the [uv-index-card](https://github.com/t1gr0u/uv-index-card). Big thank you @t1gr0u
 for allowing me to copy and adapt the card.
 
+I give no guarantee for the functionality and no promise of lifelong maintenance, as I do the whole thing in my free time. Of course, I am happy about every contribution and PullRequest :heart:
+
+
+Please ⭐️ or sponsor this repo when you like it :heart:.
 
 
 ## Installation
 
-### [HACS](https://hacs.xyz/) (Home Assistant Community Store)
+### [HACS](hacs) (Home Assistant Community Store)
 
 1. Go to HACS page on your Home Assistant instance
+1. Add this repository (https://github.com/MelleD/pm-index-card) via HACS Custom repositories [How to add Custom Repositories](https://hacs.xyz/docs/faq/custom_repositories/)
 1. Select `Frontend`
 1. Press add icon and search for `pm-index`
 1. Select PM Index Card repo and install
@@ -30,7 +37,7 @@ for allowing me to copy and adapt the card.
 
 ### Manual
 
-1. Download the 'pm-index-card.js' from the latest [release](https://github.com/MelleD/pm-index-card/releases) (with right click, save link as)
+1. Download the 'pm-index-card.js' from the latest [release][release-url] (with right click, save link as)
 1. Place the downloaded file on your Home Assistant machine in the `config/www` folder (when there is no `www` folder in the folder where your `configuration.yaml` file is, create it and place the file there)
 1. In Home Assistant go to `Configuration->Lovelace Dashboards->Resources` (When there is no `resources` tag on the `Lovelace Dashboard` page, enable advanced mode in your account settings, and retry this step)
 1. Add a new resource
