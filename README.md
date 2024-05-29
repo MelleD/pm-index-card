@@ -3,10 +3,8 @@
 [![release][release-badge]][release-url]
 ![downloads][downloads-badge]
 ![build][build-badge]
-
-<a href="https://www.paypal.me/MelleDennis" target="_blank"><img src="https://github.com/MelleD/pm-index-card/blob/main/docs/images/pplogo.png" alt="PayPal.Me MelleDennis" style="height: 50px !important;width: 50px !important;" ></a>
-
-<a href="https://www.buymeacoffee.com/melled" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+[![PayPal.Me][paypal-me-badge]][paypal-me-url]
+[![BuyMeCoffee][buy-me-a-coffee-shield]]][buy-me-a-coffee-url]
 
 ## Introduction
 
@@ -125,14 +123,24 @@ If you wish to add a language please follow these steps:
 
 Clone and create a PR to help make the card even better.
 
+## Sponsor ❤️
+
+<a href="" target="_blank"><img src="https://github.com/MelleD/pm-index-card/blob/main/docs/images/pplogo.png" alt="PayPal.Me MelleDennis" style="height: 50px !important;width: 50px !important;" ></a>
+
+<a href="https://www.buymeacoffee.com/melled" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 <!-- Badges -->
 
 [release-badge]: https://img.shields.io/github/v/release/MelleD/pm-index-card?style=flat-square
 [downloads-badge]: https://img.shields.io/github/downloads/MelleD/pm-index-card/total?style=flat-square
 [build-badge]: https://img.shields.io/github/actions/workflow/status/MelleD/pm-index-card/build.yml?branch=main&style=flat-square
+[paypal-me-badge]: https://img.shields.io/static/v1.svg?label=%20&message=PayPal.Me&logo=paypal
+[buy-me-a-coffee-shield]: https://img.shields.io/static/v1.svg?label=%20&message=Buy%20me%20a%20coffee&color=6f4e37&logo=buy%20me%20a%20coffee&logoColor=white
 
 <!-- References -->
 
 [home-assistant]: https://www.home-assistant.io/
 [hacs]: https://hacs.xyz
 [release-url]: https://github.com/MelleD/pm-index-card/releases
+[paypal-me-url]: https://www.paypal.me/MelleDennis
+[buy-me-a-coffee-url]: https://www.buymeacoffee.com/melled
