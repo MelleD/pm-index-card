@@ -4,7 +4,7 @@
 ![downloads][downloads-badge]
 ![build][build-badge]
 [![PayPal.Me][paypal-me-badge]][paypal-me-url]
-[![BuyMeCoffee][buy-me-a-coffee-shield]]][buy-me-a-coffee-url]
+[![BuyMeCoffee][buy-me-a-coffee-shield]][buy-me-a-coffee-url]
 
 ## Introduction
 
