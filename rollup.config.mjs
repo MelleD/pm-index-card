@@ -7,15 +7,9 @@ import serve from 'rollup-plugin-serve';
 import json from '@rollup/plugin-json';
 import ignore from "./rollup-plugins/ignore.js";
 
-const IGNORED_FILES = [
-    "@material/mwc-notched-outline/mwc-notched-outline.js",
-    "@material/mwc-ripple/mwc-ripple.js",
-    "@material/mwc-list/mwc-list.js",
-    "@material/mwc-list/mwc-list-item.js",
-    "@material/mwc-menu/mwc-menu.js",
-    "@material/mwc-menu/mwc-menu-surface.js",
-    "@material/mwc-icon/mwc-icon.js",
-];
+import { ignoreTextfieldFiles } from './elements/ignore/textfield.js';
+import { ignoreSelectFiles } from './elements/ignore/select.js';
+import { ignoreSwitchFiles } from './elements/ignore/switch.js';
 
 
 const dev = process.env.ROLLUP_WATCH;
@@ -41,7 +35,7 @@ const plugins = [
     babelHelpers: "bundled",
   }),
   ignore({
-    files: IGNORED_FILES.map((file) => require.resolve(file)),
+    files: [...ignoreTextfieldFiles, ...ignoreSelectFiles, ...ignoreSwitchFiles].map((file) => require.resolve(file)),
   }),
   ...(dev ? [serve(serveopts)] : [terser()]),
 ];
