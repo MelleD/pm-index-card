@@ -3,8 +3,8 @@
 [![release][release-badge]][release-url]
 ![downloads][downloads-badge]
 ![build][build-badge]
-[![PayPal.Me][paypal-me-badge]][paypal-me-url]
-[![BuyMeCoffee][buy-me-a-coffee-shield]][buy-me-a-coffee-url]
+
+<a href="https://www.paypal.me/MelleDennis" target="_blank"><img src="https://www.paypalobjects.com/webstatic/paypalme/images/social/pplogo384.png" alt="PayPal.Me MelleDennis" style="height: 50px !important;width: 50px !important;" ></a>
 
 ## Introduction
 
@@ -13,18 +13,13 @@ A custom Lovelace card that displays the PM (2.5 or 10) index and risk level in 
 The card was copied from the [uv-index-card](https://github.com/t1gr0u/uv-index-card). Big thank you @t1gr0u
 for allowing me to copy and adapt the card.
 
-I give no guarantee for the functionality and no promise of lifelong maintenance, as I do the whole thing in my free time. Of course, I am happy about every contribution and PullRequest :heart:
-
-
-Please ⭐️ or sponsor this repo when you like it :heart:.
 
 
 ## Installation
 
-### [HACS](hacs) (Home Assistant Community Store)
+### [HACS](https://hacs.xyz/) (Home Assistant Community Store)
 
 1. Go to HACS page on your Home Assistant instance
-1. Add this repository (https://github.com/MelleD/pm-index-card) via HACS Custom repositories [How to add Custom Repositories](https://hacs.xyz/docs/faq/custom_repositories/)
 1. Select `Frontend`
 1. Press add icon and search for `pm-index`
 1. Select PM Index Card repo and install
@@ -35,7 +30,7 @@ Please ⭐️ or sponsor this repo when you like it :heart:.
 
 ### Manual
 
-1. Download the 'pm-index-card.js' from the latest [release][release-url] (with right click, save link as)
+1. Download the 'pm-index-card.js' from the latest [release](https://github.com/MelleD/pm-index-card/releases) (with right click, save link as)
 1. Place the downloaded file on your Home Assistant machine in the `config/www` folder (when there is no `www` folder in the folder where your `configuration.yaml` file is, create it and place the file there)
 1. In Home Assistant go to `Configuration->Lovelace Dashboards->Resources` (When there is no `resources` tag on the `Lovelace Dashboard` page, enable advanced mode in your account settings, and retry this step)
 1. Add a new resource
@@ -123,24 +118,14 @@ If you wish to add a language please follow these steps:
 
 Clone and create a PR to help make the card even better.
 
-## Sponsor ❤️
-
-<a href="" target="_blank"><img src="https://github.com/MelleD/pm-index-card/blob/main/docs/images/pplogo.png" alt="PayPal.Me MelleDennis" style="height: 50px !important;width: 50px !important;" ></a>
-
-<a href="https://www.buymeacoffee.com/melled" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
 <!-- Badges -->
 
 [release-badge]: https://img.shields.io/github/v/release/MelleD/pm-index-card?style=flat-square
 [downloads-badge]: https://img.shields.io/github/downloads/MelleD/pm-index-card/total?style=flat-square
 [build-badge]: https://img.shields.io/github/actions/workflow/status/MelleD/pm-index-card/build.yml?branch=main&style=flat-square
-[paypal-me-badge]: https://img.shields.io/static/v1.svg?label=%20&message=PayPal.Me&logo=paypal
-[buy-me-a-coffee-shield]: https://img.shields.io/static/v1.svg?label=%20&message=Buy%20me%20a%20coffee&color=6f4e37&logo=buy%20me%20a%20coffee&logoColor=white
 
 <!-- References -->
 
 [home-assistant]: https://www.home-assistant.io/
 [hacs]: https://hacs.xyz
 [release-url]: https://github.com/MelleD/pm-index-card/releases
-[paypal-me-url]: https://www.paypal.me/MelleDennis
-[buy-me-a-coffee-url]: https://www.buymeacoffee.com/melled
