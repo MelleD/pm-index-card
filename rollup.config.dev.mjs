@@ -1,13 +1,21 @@
 import resolve from 'rollup-plugin-node-resolve';
-import typescript from 'rollup-plugin-typescript2';
+import typescript from "@rollup/plugin-typescript";
 import babel from 'rollup-plugin-babel';
 import serve from 'rollup-plugin-serve';
 import { terser } from 'rollup-plugin-terser';
 import json from '@rollup/plugin-json';
-import ignore from './rollup-plugins/ignore';
-import { ignoreTextfieldFiles } from './elements/ignore/textfield';
-import { ignoreSelectFiles } from './elements/ignore/select';
-import { ignoreSwitchFiles } from './elements/ignore/switch';
+import ignore from "./rollup-plugins/ignore.js";
+
+const IGNORED_FILES = [
+    "@material/mwc-notched-outline/mwc-notched-outline.js",
+    "@material/mwc-ripple/mwc-ripple.js",
+    "@material/mwc-list/mwc-list.js",
+    "@material/mwc-list/mwc-list-item.js",
+    "@material/mwc-menu/mwc-menu.js",
+    "@material/mwc-menu/mwc-menu-surface.js",
+    "@material/mwc-icon/mwc-icon.js",
+];
+
 
 export default {
   input: ['src/pm-index-card.ts'],
@@ -33,7 +41,7 @@ export default {
       },
     }),
     ignore({
-      files: [...ignoreTextfieldFiles, ...ignoreSelectFiles, ...ignoreSwitchFiles].map((file) => require.resolve(file)),
+      files: IGNORED_FILES.map((file) => require.resolve(file)),
     }),
   ],
 };
